@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "Urban Wear Retail - E-commerce Platform (Static Site)",
   "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,21 +15,21 @@
     "lint": "echo 'No linter configured'"
   },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "@supabase/supabase-js": "^2.39.0",
-    "lucide-react": "^0.263.1",
-    "recharts": "^2.5.0",
-    "sonner": "^2.0.3",
-    "react-hook-form": "^7.55.0"
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "@supabase/supabase-js": "2.39.0",
+    "lucide-react": "0.263.1",
+    "recharts": "2.5.0",
+    "sonner": "2.0.3",
+    "react-hook-form": "7.55.0"
   },
   "devDependencies": {
-    "@types/react": "^18.3.1",
-    "@types/react-dom": "^18.3.0",
-    "@vitejs/plugin-react": "^4.2.1",
-    "vite": "^5.1.0",
-    "tailwindcss": "^4.0.0",
-    "autoprefixer": "^10.4.17",
-    "typescript": "^5.3.3"
+    "@types/react": "18.3.1",
+    "@types/react-dom": "18.3.0",
+    "@vitejs/plugin-react": "4.2.1",
+    "vite": "5.1.0",
+    "tailwindcss": "4.0.0",
+    "autoprefixer": "10.4.17",
+    "typescript": "5.3.3"
   }
 }
