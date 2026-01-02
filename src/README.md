@@ -2,6 +2,12 @@
 
 A comprehensive retail e-commerce system built with React, Tailwind CSS, and Supabase.
 
+**🎯 Static Site - Deploy Anywhere!**
+
+This is a fully static React application that can be deployed to Vercel, Netlify, Cloudflare Pages, or any static hosting platform.
+
+---
+
 ## 🚀 Features
 
 ### Customer Portal

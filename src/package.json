@@ -1,12 +1,13 @@
 {
   "name": "urban-wear-retail",
   "version": "1.0.0",
-  "description": "Urban Wear Retail - E-commerce Platform",
+  "description": "Urban Wear Retail - E-commerce Platform (Static Site)",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "echo 'No linter configured'"
   },
   "dependencies": {
     "react": "^18.3.1",
